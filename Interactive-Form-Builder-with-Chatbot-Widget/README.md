@@ -420,6 +420,20 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-<p align="center">
-  Crafted with care by <b><a href="https://github.com/KhizarNaveed">Khizar Naveed</a></b>
-</p>
+## 📬 Connect with Me
+
+- **LinkedIn**: [Muhammad Khizar Naveed](https://www.linkedin.com/in/muhammad-khizar-naveed-0a8a61250/)
+- **GitHub**: [KhizarNaveed](https://github.com/KhizarNaveed)
+- **Email**: [m.khizarnaveed2004@gmail.com](mailto:m.khizarnaveed2004@gmail.com)
+
+---
+
+## 🙏 Acknowledgments
+
+- **Tynoc-Tech**: For the internship opportunity, mentorship, and project requirements.
+- **Supabase**: For providing reliable PostgreSQL, Row Level Security, and authentication infrastructure.
+- **Next.js & Vercel**: For modern App Router capabilities and developer ecosystem.
+
+---
+
+⭐ **If you found this project useful, please consider giving it a star!**
