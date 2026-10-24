@@ -1,0 +1,54 @@
+Build an Interactive Form Builder with Chatbot Widget
+Software Engineer Intern
+
+========================================
+
+Role: Software Engineer Intern
+Project Type: Full-Stack Web Development
+
+Objective: Build a modern web application where users can create interactive forms, embed a chatbot widget on websites, collect responses and manage submissions through a dashboard.
+1. Landing Page
+Create a clean, responsive landing page containing:
+- Hero section with a clear headline, description and CTA buttons.
+- Features section explaining the platform's capabilities.
+- How It Works section showing the basic workflow.
+- Live chatbot widget demo.
+- Footer with navigation and contact links.
+2. User Dashboard
+- Display total forms and responses.
+- Create, edit, delete and publish forms.
+- View form status and submissions.
+- Provide a simple, user-friendly interface.
+3. Form Builder
+- Add questions: text, email, multiple choice and yes/no.
+- Edit, reorder and delete questions.
+- Configure required questions.
+- Preview the form before publishing.
+4. Chatbot Widget
+- Display questions one at a time in a chat-style interface.
+- Support text input, answer buttons and basic validation.
+- Show welcome and completion messages.
+- Allow basic customization of colors and welcome text.
+- Provide a floating widget that can be embedded on an external website using a JavaScript snippet.
+- Ensure the widget works on desktop and mobile.
+5. Responses and Publishing
+- Generate a unique public URL for each form.
+- Save submitted responses in a database.
+- Display individual submissions and submission timestamps.
+- Allow form owners to publish and unpublish forms.
+6. Technology Stack
+- Frontend: Next.js, React, TypeScript
+- UI: Tailwind CSS
+- Backend: Next.js API routes or server actions
+- Database: PostgreSQL or Supabase
+- Version Control: Git and GitHub
+7. Deliverables
+- Responsive landing page and dashboard.
+- Functional form builder and chatbot widget.
+- Public form links and website embed functionality.
+- Database-backed response management.
+- GitHub repository with README and setup instructions.
+- Deployed demo or staging URL.
+Completion Criteria
+The application must allow a user to create a form, publish it, embed the chatbot widget on a test website, collect responses and view saved submissions in the dashboard.
+Important: Build a working MVP with clean code, responsive design and proper validation. AI features, payments, subscriptions and advanced integrations are outside the scope of this task.

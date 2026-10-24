@@ -1,0 +1,30 @@
+﻿# Dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.js
+**/.yarn/install-state.gz
+
+# Next.js & Build outputs
+**/.next/
+**/out/
+**/build/
+**/dist/
+
+# Logs & debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment & secret files
+**/.env*.local
+**/.env
+
+# TypeScript cache
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+**/.vscode/
+**/.idea/
