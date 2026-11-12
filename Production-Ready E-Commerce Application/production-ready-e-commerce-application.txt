@@ -1,0 +1,80 @@
+Production-Ready E-Commerce Application
+Software Engineer Intern
+
+========================================
+
+Project Overview
+As a Software Engineer Intern, design and develop a production-style full-stack e-commerce application. The project should focus not only on UI, but also on application architecture, business logic, API development, database design, error handling, and scalable code structure.
+The goal is to build a realistic e-commerce platform where users can discover products, manage their cart and wishlist, and interact with application data through a properly designed backend.
+Core Features
+Storefront
+- Modern responsive homepage
+- Product categories
+- Product listing
+- Product detail pages
+- Search and filtering
+- Product images and information
+- Related products
+User & Data Management
+- User data management
+- Products
+- Categories
+- Shopping cart
+- Wishlist
+Cart & Wishlist
+- Add products to cart
+- Update product quantity
+- Remove items from cart
+- Calculate subtotal
+- Add/remove products from wishlist
+- Prevent duplicate items where appropriate
+Application Experience
+- Mobile, tablet, and desktop responsive design
+- Loading states
+- Empty states
+- Error handling
+- Form validation where applicable
+- 404 / not-found handling
+Tech Stack
+Frontend: Next.js • React • TypeScript
+Backend: Next.js Route Handlers / API Routes / Server Actions
+Database: AWS DynamoDB
+Styling: Tailwind CSS
+Version Control: Git & GitHub
+Database Design
+Use AWS DynamoDB to design and manage application data for:
+- Users
+- Products
+- Categories
+- Shopping Cart
+- Wishlist
+Define a clear data structure and document how the application reads, creates, updates, and deletes data.
+Expected Architecture
+User → Next.js Application → Server/API Layer → AWS DynamoDB
+Organize the project using a clean structure, separating:
+- UI components
+- Business logic
+- API/server functionality
+- Database operations
+- Types and interfaces
+- Utility functions
+Development Requirements
+- Write reusable and maintainable components
+- Use TypeScript properly
+- Implement structured API/server logic
+- Handle database and application errors
+- Validate important input data
+- Use environment variables for configuration
+- Avoid hardcoding sensitive credentials
+- Maintain meaningful Git commits
+- Write clean and understandable documentation
+Submission
+Submit through Internship Dashboard → Task Submission:
+- GitHub Repository Link
+- Live Project Link (if deployed)
+- README.md containing:Project overviewFeaturesTech stackProject structureArchitectureDynamoDB setupEnvironment variablesInstallation instructions
+- Screenshots of the completed application
+Expected Outcome
+The final project should demonstrate a complete software engineering workflow:
+Requirements → Architecture → Database Design → Development → API & Business Logic → Testing → Documentation → Deployment
+Important: Focus on building a functional, well-structured application with proper data management and business logic. The project should feel like a real-world e-commerce application, not just a static website.
