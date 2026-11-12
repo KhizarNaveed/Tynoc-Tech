@@ -85,6 +85,71 @@ Rather than building a static storefront template, **Tynoc Store** implements a 
 
 ---
 
+## 📸 Screenshots & Output Demos
+
+### 1. Modern Storefront Landing Page & Hero Showcase
+A design-led landing page featuring a mesh-gradient hero banner, bestseller spotlight, customer rating badges, category navigation, and featured product grid.
+
+<p align="center">
+  <img src="result/Main.png" alt="Storefront Landing Page" width="85%">
+</p>
+
+---
+
+### 2. Category Collections & Navigation
+Shoppers can browse curated collections (*Electronics*, *Fashion*, *Home & Living*) directly from the sticky navbar dropdown or the homepage category showcase.
+
+<p align="center">
+  <img src="result/Categories.png" alt="Category Filtering & Navigation" width="85%">
+</p>
+
+---
+
+### 3. Product Catalog & Real-Time Filtering
+Full product catalog (`/products`) with keyword search, category filter counts, stock indicators, hover-zoom product cards, and quick-add actions.
+
+<p align="center">
+  <img src="result/Products.png" alt="Product Catalog Grid" width="85%">
+</p>
+
+---
+
+### 4. Multi-Mode Catalog Sorting
+Instant client-side sorting across *Featured*, *Price: Low to High*, *Price: High to Low*, and *Name: A to Z* alongside active filter badges.
+
+<p align="center">
+  <img src="result/Sort.png" alt="Catalog Sorting & Filters" width="85%">
+</p>
+
+---
+
+### 5. Persistent Wishlist Management
+One-click heart toggles persist favorite products to `Tynoc-Wishlists` in AWS DynamoDB and sync the live navbar wishlist badge.
+
+<p align="center">
+  <img src="result/Wishlist.png" alt="Saved Wishlist Page" width="85%">
+</p>
+
+---
+
+### 6. Shopping Cart & Dynamic Quantity Updates
+Full cart management (`/cart`) backed by `Tynoc-Carts` in DynamoDB — supporting instant quantity increments/decrements, item removal, stock limit checks, and live Order Summary calculations.
+
+| Initial Shopping Cart | Updated Quantities & Live Subtotal |
+| :---: | :---: |
+| <img src="result/Cart.png" alt="Shopping Cart View" width="100%"> | <img src="result/UpdatedCart.png" alt="Updated Cart Subtotal" width="100%"> |
+
+---
+
+### 7. AWS DynamoDB Cloud Tables (`eu-north-1`)
+All 5 production tables (`Tynoc-Products`, `Tynoc-Categories`, `Tynoc-Users`, `Tynoc-Carts`, `Tynoc-Wishlists`) provisioned in AWS DynamoDB within the Free Tier (`5 RCU / 5 WCU` per table).
+
+<p align="center">
+  <img src="result/DynamoDb.png" alt="AWS DynamoDB Tables" width="85%">
+</p>
+
+---
+
 ## 🛠️ Tech Stack & Implementation Details
 
 | Layer | Technology | Rationale & Key Packages |
@@ -106,6 +171,15 @@ Production-Ready E-Commerce Application/
 │   ├── architecture.html             # Interactive standalone Archify architecture diagram
 │   └── architecture.png              # Exported high-resolution architecture diagram image
 ├── public/                           # Static assets
+├── result/                           # Application screenshots & AWS DynamoDB output demos
+│   ├── Cart.png
+│   ├── Categories.png
+│   ├── DynamoDb.png
+│   ├── Main.png
+│   ├── Products.png
+│   ├── Sort.png
+│   ├── UpdatedCart.png
+│   └── Wishlist.png
 ├── src/
 │   ├── app/
 │   │   ├── api/                      # Next.js App Router Backend API Endpoints
